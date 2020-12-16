@@ -8,7 +8,7 @@ layout: default
 
 <img class="logo" src="/assets/images/reno-visions.png" max-height="450px" max-width="450px">
 
-<p><br /></p>
+<p style="line-height: 50%;"><br /></p>
 
 ## About Us
 
