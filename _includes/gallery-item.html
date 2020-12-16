@@ -1,0 +1,14 @@
+<li class="galleryList">
+    <div class="galleryItem">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+            {% if post.image %}
+                <div>
+                    <img class="galleryImg" src="{{ post.image }}" alt="{{ post.title }}" />
+                </div>
+            {% endif %}
+            <div>
+                <p class="galleryDesc"><strong>{{ post.title }}</strong> <br /> <span>{{ post.content | strip_html | truncatewords: 14, "" }}</span></p>
+            </div>
+        </a>
+    </div>
+</li>
