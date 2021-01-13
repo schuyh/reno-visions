@@ -244,13 +244,15 @@ Full-Width Styles
 
 #footer_wrap { float: inline-end; background: #212121; }
 
-.galleryList { float: left; list-style: none; }
+.galleryItem { height: 300px; margin: 5px; margin-top: 15px; margin-bottom: 25px; padding: 5px; }
 
-.galleryItem { height: 200px; width: 175px; margin: 10px; padding: 5px; }
+.galleryTitle { font-size: 1rem; margin-bottom: 0px; }
 
-.galleryImg { max-height: 155px; max-width: 155px; }
+.galleryImg { margin-top: 15px; margin-bottom: 20px; max-height: 150px; }
 
-.galleryDesc { color: #050709; }
+.galleryDesc { padding: 7px; text-align: left; font-size: 0.75rem; color: #050709; }
+
+.galleryDesc:hover { text-decoration: none; font-style: oblique; font-weight: 500; color: #050709; }
 
 p.clear { clear: both; }
 
@@ -267,8 +269,8 @@ Small Device Styles
 *******************************************************************************/
 @media screen and (max-width: 992px) { img { max-width: 100%; } }
 
-@media screen and (max-width: 480px) { body { font-size: 14px; } #downloads { display: none; } .inner { min-width: 320px; max-width: 480px; } #project_title { font-size: 45px; line-height: 92%; } #project_tagline { font-size: 21px; line-height: 92%; } h1 { font-size: 28px; border-top: -5px; } h2 { font-size: 24px; } h3 { font-size: 21px; } h4 { font-size: 18px; } h5 { font-size: 14px; } h6 { font-size: 12px; } code, pre { font-size: 11px; } .galleryList { float: left; list-style: none; } .galleryItem { min-width: 100px; max-width: 250px; margin-bottom: -25px; } .galleryImg { min-width: 50px; max-width: 150px; margin: 0px; float: left; } .galleryDesc { text-align: left; font-size: 84%; width: 100%; margin: 3px; padding: 3px; float: left; } .postTitle { margin-left: 32px; margin-bottom: 0px; text-align: left; font-family: monospace; font-size: 21px; } .postDesc { margin-left: 32px; text-align: left; font-family: monospace; font-size: 10px; line-height: 25%; } .primaryImg { width: 84%; } .secondaryImg { width: 84%; } }
+@media screen and (max-width: 480px) { body { font-size: 14px; } #downloads { display: none; } .inner { min-width: 320px; max-width: 480px; } #project_title { font-size: 45px; line-height: 92%; } #project_tagline { font-size: 21px; line-height: 92%; } h1 { font-size: 28px; border-top: -5px; } h2 { font-size: 24px; } h3 { font-size: 21px; } h4 { font-size: 18px; } h5 { font-size: 14px; } h6 { font-size: 12px; } code, pre { font-size: 11px; } .galleryItem { height: 300px; max-width: 200px; margin: 5px; margin-top: 10px; margin-bottom: 20px; padding: 5px; } .galleryTitle { font-size: 0.85rem; margin-bottom: 0px; } .galleryImg { margin-top: 15px; margin-bottom: 20px; max-height: 100px; } .galleryDesc { padding: 3px; text-align: left; font-size: 0.8rem; color: #050709; } .galleryDesc:hover { text-decoration: none; font-style: oblique; font-weight: 500; color: #050709; } .postTitle { margin-left: 32px; margin-bottom: 0px; text-align: left; font-family: monospace; font-size: 21px; } .postDesc { margin-left: 32px; text-align: left; font-family: monospace; font-size: 10px; line-height: 25%; } .primaryImg { width: 84%; } .secondaryImg { width: 84%; } }
 
-@media screen and (max-width: 320px) { body { font-size: 14px; } #downloads { display: none; } .inner { min-width: 240px; max-width: 320px; } #project_title { font-size: 45px; line-height: 84%; } #project_tagline { font-size: 21px; line-height: 84%; } h1 { font-size: 24px; border-top: -5px; } h2 { font-size: 21px; } h3 { font-size: 18px; } h4 { font-size: 16px; } h5 { font-size: 14px; } h6 { font-size: 12px; } code, pre { min-width: 240px; max-width: 320px; font-size: 11px; } .galleryList { float: left; list-style: none; } .galleryItem { min-width: 230px; max-width: 300px; margin: 0px; padding: 0px; } .galleryImg { min-width: 100px; max-width: 250px; margin: 0px; } .galleryDesc { font-size: 84%; text-align: left; width: 100%; margin: 5px; padding: 5px; } .postTitle { margin-top: 25px; margin-left: 17px; margin-bottom: 0px; text-align: left; font-family: monospace; font-size: 21px; } .postDesc { margin-left: 17px; text-align: left; font-family: monospace; font-size: 10px; line-height: 25%; } .primaryImg { width: 84%; } .secondaryImg { width: 84%; } .logo { max-width: 200px; } }
+@media screen and (max-width: 320px) { body { font-size: 14px; } #downloads { display: none; } .inner { min-width: 240px; max-width: 320px; } #project_title { font-size: 45px; line-height: 84%; } #project_tagline { font-size: 21px; line-height: 84%; } h1 { font-size: 24px; border-top: -5px; } h2 { font-size: 21px; } h3 { font-size: 18px; } h4 { font-size: 16px; } h5 { font-size: 14px; } h6 { font-size: 12px; } code, pre { min-width: 240px; max-width: 320px; font-size: 11px; } .galleryItem { height: 300px; max-width: 200px; margin: 5px; margin-top: 10px; margin-bottom: 20px; padding: 5px; } .galleryTitle { font-size: 0.85rem; margin-bottom: 0px; } .galleryImg { margin-top: 15px; margin-bottom: 20px; max-height: 100px; } .galleryDesc { padding: 5px; text-align: left; font-size: 0.8rem; color: #050709; } .galleryDesc:hover { text-decoration: none; font-style: oblique; font-weight: 500; color: #050709; } .postTitle { margin-top: 25px; margin-left: 17px; margin-bottom: 0px; text-align: left; font-family: monospace; font-size: 21px; } .postDesc { margin-left: 17px; text-align: left; font-family: monospace; font-size: 10px; line-height: 25%; } .primaryImg { width: 84%; } .secondaryImg { width: 84%; } .logo { max-width: 200px; } }
 
 /*# sourceMappingURL=style.css.map */

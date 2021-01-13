@@ -394,24 +394,36 @@ Full-Width Styles
   background: #212121;
 }
 
-.galleryList {
-  float: left; 
-  list-style: none;
-}
-
 .galleryItem {
-  height: 200px; 
-  width: 175px; 
-  margin: 10px; 
+  height: 300px;
+  margin: 5px; 
+  margin-top: 15px;
+  margin-bottom: 25px;
   padding: 5px;
 }
 
+.galleryTitle {
+  font-size: 1rem; 
+  margin-bottom: 0px;
+}
+
 .galleryImg {
-  max-height: 155px;
-  max-width: 155px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  max-height: 150px;
 }
 
 .galleryDesc {
+  padding: 7px;
+  text-align: left;
+  font-size: 0.75rem;
+  color: #050709;
+}
+
+.galleryDesc:hover {
+  text-decoration: none;
+  font-style: oblique;
+  font-weight: 500;
   color: #050709;
 }
 
@@ -507,31 +519,38 @@ Small Device Styles
     font-size: 11px;
   }
 
-  .galleryList {
-    float: left; 
-    list-style: none;
-  }
-
   .galleryItem {
-    min-width: 100px;
-    max-width: 250px;
-    margin-bottom: -25px;
+    height: 300px;
+    max-width: 200px;
+    margin: 5px; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+  
+  .galleryTitle {
+    font-size: 0.85rem; 
+    margin-bottom: 0px;
   }
   
   .galleryImg {
-    min-width: 50px;
-    max-width: 150px;
-    margin: 0px;
-    float: left; 
+    margin-top: 15px;
+    margin-bottom: 20px;
+    max-height: 100px;
   }
-
+  
   .galleryDesc {
-    text-align: left;
-    font-size: 84%;
-    width: 100%;
-    margin: 3px;
     padding: 3px;
-    float: left; 
+    text-align: left;
+    font-size: 0.8rem;
+    color: #050709;
+  }
+  
+  .galleryDesc:hover {
+    text-decoration: none;
+    font-style: oblique;
+    font-weight: 500;
+    color: #050709;
   }
 
   .postTitle {
@@ -615,30 +634,38 @@ Small Device Styles
     font-size: 11px;
   }
 
-  .galleryList {
-    float: left; 
-    list-style: none;
-  }
-
   .galleryItem {
-    min-width: 230px;
-    max-width: 300px;
-    margin: 0px;
-    padding: 0px;
+    height: 300px;
+    max-width: 200px;
+    margin: 5px; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+  
+  .galleryTitle {
+    font-size: 0.85rem; 
+    margin-bottom: 0px;
   }
   
   .galleryImg {
-    min-width: 100px;
-    max-width: 250px;
-    margin: 0px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    max-height: 100px;
   }
-
+  
   .galleryDesc {
-    font-size: 84%;
-    text-align: left;
-    width: 100%;
-    margin: 5px;
     padding: 5px;
+    text-align: left;
+    font-size: 0.8rem;
+    color: #050709;
+  }
+  
+  .galleryDesc:hover {
+    text-decoration: none;
+    font-style: oblique;
+    font-weight: 500;
+    color: #050709;
   }
 
   .postTitle {

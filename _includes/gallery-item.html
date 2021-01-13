@@ -1,14 +1,11 @@
-<li class="galleryList">
-    <div class="galleryItem">
-        <a href="{{ post.url | prepend: site.baseurl }}">
-            {% if post.image %}
-                <div>
-                    <img class="galleryImg" src="{{ post.image }}" alt="{{ post.title }}" />
-                </div>
-            {% endif %}
-            <div>
-                <p class="galleryDesc"><strong>{{ post.title }}</strong> <br /> <span>{{ post.content | strip_html | truncatewords: 14, "" }}</span></p>
-            </div>
-        </a>
+<div class="card galleryItem mx-auto shadow-sm">
+    <div class="card-header" style="padding: 10px;">
+        <h3 class="card-title galleryTitle mx-auto" style="margin-bottom: 0px;">{{ post.title | strip_html | truncatewords: 5 }}</h3>
     </div>
-</li>
+    <div class="card-body mx-auto" style="padding: 0px;">
+        <img class="card-img-top galleryImg shadow-sm" src="{{ post.image }}" alt="{{ post.title }}" style="width: auto;">
+        <div class="d-flex">
+            <a href="{{ post.url }}" class="stretched-link galleryDesc">{{ post.excerpt | strip_html | strip_newlines | truncatewords: 15, "..." }}</a>
+        </div>
+    </div>
+</div>

@@ -29,7 +29,7 @@ Using fabric swatches, material samples and reference photos, we create digital 
 
 <h5 style="text-align: left;">Render</h5>
 <p style="text-align:left;">
-With your feedback, we iterate on the design until you find the perfect fit. Would you like to see the office with a blue accent wall?  As we always say, "render twice, renovate once."
+With your feedback, we iterate on the design until you find the perfect fit. Would you like to see the office with a blue accent wall?  As we always say, "render twice, reno once."
 </p>
 
 <br />
@@ -37,12 +37,15 @@ With your feedback, we iterate on the design until you find the perfect fit. Wou
 
 ### Our Recent Work
 
-<ul>
-  {% for post in site.posts limit:3 %}
 
-      {% include gallery-item.html %}
-
-  {% endfor %}
-</ul>
+<div class="container">
+  <div class="row d-inline-flex justify-content-center align-items-center">
+    {% for post in site.posts %}
+      <div class="col-6">
+        {% include gallery-item.html %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
 
 <p class="clear"><br/></p>
