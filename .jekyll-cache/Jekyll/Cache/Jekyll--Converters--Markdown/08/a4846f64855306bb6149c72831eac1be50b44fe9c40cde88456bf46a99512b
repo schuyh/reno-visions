@@ -1,0 +1,138 @@
+I"�<p><br /></p>
+
+<h1 id="welcome-to-reno-visions">Welcome to reno-visions</h1>
+
+<p><img class="logo" src="/assets/images/reno-visions.png" max-height="450px" max-width="450px" /></p>
+
+<p><br /></p>
+
+<h2 id="about-us">About Us</h2>
+
+<h3 id="what-we-do">What We Do</h3>
+<p><br />
+<img src="/assets/images/HIW720x250.png" width="640px" />
+<br />
+<br /></p>
+<h5 style="text-align: left;">Model</h5>
+<p style="text-align:left;">
+Dimensions and designs in hand, we begin by modelling your space and your furnishings, and adding natural and interior light sources. 
+</p>
+
+<h5 style="text-align: left;">Texture</h5>
+<p style="text-align:left;">
+Using fabric swatches, material samples and reference photos, we create digital textures to represent your chosen finishes.
+</p>
+
+<h5 style="text-align: left;">Render</h5>
+<p style="text-align:left;">
+With your feedback, we iterate on the design until you find the perfect fit. Would you like to see the office with a blue accent wall?  As we always say, "render twice, reno once."
+</p>
+
+<p><br /></p>
+<hr />
+
+<h3 id="our-recent-work">Our Recent Work</h3>
+
+<div class="container">
+  <div class="row d-inline-flex justify-content-center align-items-center">
+    
+      <div class="col-6">
+        <div class="card galleryItem mx-auto shadow-sm">
+    <div class="card-header" style="padding: 10px;">
+        <h3 class="card-title galleryTitle mx-auto" style="margin-bottom: 0px;">Floating</h3>
+    </div>
+    <div class="card-body mx-auto" style="padding: 0px;">
+        <img class="card-img-top galleryImg shadow-sm" src="/assets/images/021621.png" alt="Floating" style="width: auto;" />
+        <div class="d-flex">
+            <a href="/2021/02/16/Floating.html" class="stretched-link galleryDesc">With sunset streaming through the windows, and relaxing music streaming over the sound system, it...</a>
+        </div>
+    </div>
+</div>
+
+      </div>
+    
+      <div class="col-6">
+        <div class="card galleryItem mx-auto shadow-sm">
+    <div class="card-header" style="padding: 10px;">
+        <h3 class="card-title galleryTitle mx-auto" style="margin-bottom: 0px;">Morning Haze</h3>
+    </div>
+    <div class="card-body mx-auto" style="padding: 0px;">
+        <img class="card-img-top galleryImg shadow-sm" src="/assets/images/020821.png" alt="Morning Haze" style="width: auto;" />
+        <div class="d-flex">
+            <a href="/2021/02/08/Morning-Haze.html" class="stretched-link galleryDesc">Sunrise coloured fixtures and foggy marble countertops give this kitchen the feel of a warm...</a>
+        </div>
+    </div>
+</div>
+
+      </div>
+    
+      <div class="col-6">
+        <div class="card galleryItem mx-auto shadow-sm">
+    <div class="card-header" style="padding: 10px;">
+        <h3 class="card-title galleryTitle mx-auto" style="margin-bottom: 0px;">Black White And Read</h3>
+    </div>
+    <div class="card-body mx-auto" style="padding: 0px;">
+        <img class="card-img-top galleryImg shadow-sm" src="/assets/images/230720_1CC.jpg" alt="Black White And Read" style="width: auto;" />
+        <div class="d-flex">
+            <a href="/2020/07/23/Black-White-and-Read.html" class="stretched-link galleryDesc">It’s funny how a 3000 Kelvin light can make a grey wall look taupe. Our...</a>
+        </div>
+    </div>
+</div>
+
+      </div>
+    
+      <div class="col-6">
+        <div class="card galleryItem mx-auto shadow-sm">
+    <div class="card-header" style="padding: 10px;">
+        <h3 class="card-title galleryTitle mx-auto" style="margin-bottom: 0px;">Sprucing Up</h3>
+    </div>
+    <div class="card-body mx-auto" style="padding: 0px;">
+        <img class="card-img-top galleryImg shadow-sm" src="/assets/images/040220A.png" alt="Sprucing Up" style="width: auto;" />
+        <div class="d-flex">
+            <a href="/2020/04/02/Sprucing-Up.html" class="stretched-link galleryDesc">Tired of the same four walls? Time for a fresh coat of paint, and some...</a>
+        </div>
+    </div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+<div style="hidden: true;">
+  <div class="row d-inline-flex justify-content-center align-items-center" style="hidden: true;">
+    
+      <div class="col-6">
+        <div class="card galleryItem mx-auto shadow-sm">
+    <div class="card-header" style="padding: 10px;">
+        <h3 class="card-title galleryTitle mx-auto" style="margin-bottom: 0px;">Home Office</h3>
+    </div>
+    <div class="card-body mx-auto" style="padding: 0px;">
+        <img class="card-img-top galleryImg shadow-sm" src="/assets/images/050219.png" alt="Home Office" style="width: auto;" />
+        <div class="d-flex">
+            <a href="/2019/02/05/Home-Office.html" class="stretched-link galleryDesc">Oh, to live in a render, where there are no messy cables…</a>
+        </div>
+    </div>
+</div>
+
+      </div>
+    
+      <div class="col-6">
+        <div class="card galleryItem mx-auto shadow-sm">
+    <div class="card-header" style="padding: 10px;">
+        <h3 class="card-title galleryTitle mx-auto" style="margin-bottom: 0px;">Autumn Hues</h3>
+    </div>
+    <div class="card-body mx-auto" style="padding: 0px;">
+        <img class="card-img-top galleryImg shadow-sm" src="/assets/images/100818_LR.jpeg" alt="Autumn Hues" style="width: auto;" />
+        <div class="d-flex">
+            <a href="/2018/08/18/Autumn-Hues.html" class="stretched-link galleryDesc">The large windows in this open concept home provide a cool airy atmosphere while richly...</a>
+        </div>
+    </div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<p class="clear"><br /></p>
+:ET

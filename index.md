@@ -40,12 +40,23 @@ With your feedback, we iterate on the design until you find the perfect fit. Wou
 
 <div class="container">
   <div class="row d-inline-flex justify-content-center align-items-center">
-    {% for post in site.posts %}
+    {% for post in site.posts | limit: 4 %}
       <div class="col-6">
         {% include gallery-item.html %}
       </div>
     {% endfor %}
   </div>
 </div>
+<div id="firstClick" style="display: none;">
+  <div class="row d-inline-flex justify-content-center align-items-center">
+    {% for post in site.posts | limit: 4 offset: 4 %}
+      <div class="col-6">
+        {% include gallery-item.html %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+<br />
+<button class="shadow-sm" id="clicker" onclick="toggle_visibility('firstClick');">See More</button>
 
 <p class="clear"><br/></p>

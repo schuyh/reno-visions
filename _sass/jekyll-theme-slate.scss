@@ -394,6 +394,21 @@ Full-Width Styles
   background: #212121;
 }
 
+#clicker {
+  padding: 7px 15px 5px 15px;
+  border-radius: 7px;
+  border-color: #222;
+  background-color: #f0f1f2;
+  color: #222; 
+  font: inherit;
+}
+
+#clicker:hover {
+  border-color: #f0f1f2;
+  background-color: #222;
+  color: #f0f1f2;
+} 
+
 .galleryItem {
   height: 300px;
   margin: 5px; 
@@ -518,7 +533,7 @@ Small Device Styles
   code, pre {
     font-size: 11px;
   }
-
+  
   .galleryItem {
     height: 300px;
     max-width: 200px;
