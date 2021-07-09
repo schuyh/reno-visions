@@ -1,0 +1,59 @@
+<header class="container-full" style="padding: 20px 10px;">
+    <div class="row align-items-center justify-content-center">
+        
+        <div class="col-1 mx-auto">
+        </div>
+        
+        <div class="col-10 mx-auto">
+            <div>
+                <a class="navbar-brand" href="/">
+                    <img class="navbar-brand-image nav-icons" src="/assets/images/reno-visions.png" alt="logo" style="max-width: 75px; max-height: 75px; clip-path: circle(50%);">
+                </a>
+                <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
+                <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+            </div>
+        </div>
+
+        <!-- Menu Button -->
+
+        <div class="col-1 mx-auto" style="padding-top: 111px;">
+            <div class="menuButton" onclick="toggle_menu('navClick')">
+                <div id="bar1"></div>
+                <div id="bar2"></div>
+                <div id="bar3"></div>
+                <p class="clear"></p>
+            </div>
+        </div>
+    </div>
+
+    <!--
+    {% if site.github.is_project_page %}
+      <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
+    {% endif %}
+    -->
+
+    </header>
+</div>
+
+    <!-- Nav -->
+    <div id="navClick" style="width: 100%; background-color: #373737; display: none;">
+        <nav class="navbar navbar-expand shadow-sm justify-content-center align-items-center">
+            <ul class="navbar-nav justify-content-center align-items-center">
+                {% for item in site.data.navigation %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ item.link }}">
+                        {{ item.name }} &nbsp; &nbsp; &#183; &nbsp;
+                    </a>
+                </li>
+                {% endfor %}
+                <li class="nav-item">
+                    <a class="nav-link" id="contactUs" href="mailto:schuy+net@reno-visions.com?subject=Contact%20Us&body=Hi%20Sky%2C">
+                        <b>Contact</b>
+                    </a>
+                </li>
+            </ul>
+            <ul class="navbar-nav justify-content-end">
+            </ul>
+        </nav>
+    </div>
+</div>
