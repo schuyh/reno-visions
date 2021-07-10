@@ -252,6 +252,16 @@ Full-Width Styles
 
 #referrer:hover { border-color: #f0f1f2; background-color: #222; color: #f0f1f2; }
 
+#button { padding: 7px 15px 5px 15px; border-radius: 7px; border-color: #222; background-color: #f0f1f2; color: #222; font: inherit; }
+
+#button:hover { border-color: #f0f1f2; background-color: #222; color: #f0f1f2; }
+
+#buttonLink { background-color: #f0f1f2; color: #222; font: inherit; }
+
+#buttonLink:hover { background-color: #222; color: #f0f1f2; }
+
+#menu { width: 35px; height: 5px; color: #fff; font-size: 12px; font-weight: bold; }
+
 #bar1, #bar2, #bar3 { width: 35px; height: 5px; background-color: #fff; margin: 6px 0; transition: 0.4s; }
 
 .change #bar1 { -webkit-transform: rotate(-45deg) translate(-9px, 6px); transform: rotate(-45deg) translate(-9px, 6px); }
@@ -283,6 +293,10 @@ p.clear { clear: both; }
 .primaryImg { max-width: 640px; }
 
 .secondaryImg { padding: 5px; margin: 10px 0 10px 0; border: 1px solid #ebebeb; }
+
+.form-group { text-align: left; }
+
+.form-hr { border-top: 1px solid; border-bottom: 0; margin-top: -10px; margin-bottom: 5px; }
 
 /*******************************************************************************
 Small Device Styles
