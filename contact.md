@@ -9,12 +9,19 @@ layout: contact
   <div class="row pt-3">
   <h2 class="d-flex mx-auto align-items-center justify-content-center" style="text-shadow: 2px 2px 3px #05070940;">Contact Us</h2>
   </div>
+
+<!-- Icon -->
+
+  <div class="row pt-3 justify-content-center align-items-center">
+  <img src="/assets/images/250x250-ao.jpg" alt="a render of reno-visions' office" style="max-width: 75px; max-height: 75px; clip-path: circle(42%); margin: 0px;">
   
-  <br />
+  </div>
+
+  <br /><hr />
 
   <!-- Contact Info Section -->
   
-  <div class="row mx-auto align-items-center justify-content-center">
+  <div class="row mx-auto align-items-center justify-content-center" style="padding-top: 50px; padding-bottom: 25px;">
 
   <div class="col-6-md mx-auto align-items-center justify-content-center">
 
@@ -39,4 +46,4 @@ layout: contact
   <br />
   
   </div>
-  <br />
+  <br /><br />
