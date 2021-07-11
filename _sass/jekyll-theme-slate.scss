@@ -488,6 +488,8 @@ Full-Width Styles
   font-style: italic;
 }
 
+// Gallery Sm
+
 .galleryItem {
   height: 300px;
   margin: 5px; 
@@ -515,6 +517,42 @@ Full-Width Styles
 }
 
 .galleryDesc:hover {
+  text-decoration: none;
+  font-style: oblique;
+  font-weight: 500;
+  color: #050709;
+}
+
+// Gallery Lg
+
+.galleryItem-lg {
+  height: 375px;
+  margin: 5px; 
+  margin-top: 15px;
+  margin-bottom: 25px;
+  padding: 5px;
+}
+
+.galleryTitle-lg {
+  font-size: 1rem; 
+  margin-bottom: 0px;
+}
+
+.galleryImg-lg {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  max-height: 225px;
+}
+
+.galleryDesc-lg {
+  padding: 7px;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #050709;
+}
+
+.galleryDesc-lg:hover {
+  text-align: center;
   text-decoration: none;
   font-style: oblique;
   font-weight: 500;
@@ -624,7 +662,7 @@ Small Device Styles
     font-size: 11px;
   }
   
-  .galleryItem {
+  .galleryItem, .galleryItem-lg {
     height: 300px;
     max-width: 200px;
     margin: 5px; 
@@ -633,25 +671,25 @@ Small Device Styles
     padding: 5px;
   }
   
-  .galleryTitle {
+  .galleryTitle, .galleryTitle-lg {
     font-size: 0.85rem; 
     margin-bottom: 0px;
   }
   
-  .galleryImg {
+  .galleryImg, .galleryImg-lg {
     margin-top: 15px;
     margin-bottom: 20px;
     max-height: 100px;
   }
   
-  .galleryDesc {
+  .galleryDesc, .galleryDesc-lg {
     padding: 3px;
     text-align: left;
     font-size: 0.8rem;
     color: #050709;
   }
   
-  .galleryDesc:hover {
+  .galleryDesc:hover, .galleryDesc-lg:hover {
     text-decoration: none;
     font-style: oblique;
     font-weight: 500;
@@ -739,7 +777,7 @@ Small Device Styles
     font-size: 11px;
   }
 
-  .galleryItem {
+  .galleryItem, .galleryItem-lg {
     height: 300px;
     max-width: 200px;
     margin: 5px; 
@@ -748,25 +786,25 @@ Small Device Styles
     padding: 5px;
   }
   
-  .galleryTitle {
+  .galleryTitle, .galleryTitle-lg {
     font-size: 0.85rem; 
     margin-bottom: 0px;
   }
   
-  .galleryImg {
+  .galleryImg, .galleryImg-lg {
     margin-top: 15px;
     margin-bottom: 20px;
     max-height: 100px;
   }
   
-  .galleryDesc {
+  .galleryDesc, .galleryDesc-lg {
     padding: 5px;
     text-align: left;
     font-size: 0.8rem;
     color: #050709;
   }
   
-  .galleryDesc:hover {
+  .galleryDesc:hover, .galleryDesc-lg:hover {
     text-decoration: none;
     font-style: oblique;
     font-weight: 500;

@@ -9,7 +9,7 @@ layout: gallery
     <div class="row pt-3 d-flex mx-auto align-items-center">
         {% for post in site.posts %}
             <div class="col-md-6">
-                {% include gallery-item.html %}
+                {% include gallery-item-lg.html %}
             </div>
         {% endfor %}
     </div>
