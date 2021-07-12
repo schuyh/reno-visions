@@ -45,7 +45,7 @@
     "acceptsReservations": "True"
   }
   </script>
-  
+
 <!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>Autumn Hues | reno-visions</title>
 <meta name="generator" content="Jekyll v4.1.1" />
@@ -71,22 +71,73 @@
 
   <body>
 
-    <!-- HEADER -->
+    <!-- HEADER & NAV -->
     <div id="header_wrap" class="outer">
-        <header class="inner">
-          <!--
-          
-          -->
+            <header class="container-full" style="padding: 20px 10px;">
+    <div class="row align-items-center justify-content-center">
+        
+        <div class="col-1 mx-auto">
+        </div>
+        
+        <div class="col-10 mx-auto">
+            <div>
+                <a class="navbar-brand" href="/">
+                    <img class="navbar-brand-image nav-icons" src="/assets/images/reno-visions.png" alt="logo" style="max-width: 75px; max-height: 75px; clip-path: circle(50%);">
+                </a>
+                <h1 id="project_title">reno-visions</h1>
+                <h2 id="project_tagline">Render Twice, Renovate Once</h2>
+            </div>
+        </div>
 
-          <a href= "/">
-            <h1 id="project_title">reno-visions</h1>
-          </a>
-          <h2 id="project_tagline">Render Twice, Renovate Once</h2>
+        <!-- Menu Button -->
 
-          <!--
-          
-          --> 
-        </header>
+        <div class="col-1 mx-auto" style="padding-top: 90px;">
+            <div class="menuButton mx-auto" onclick="toggle_menu('navClick')">
+                <div id="bar1"></div>
+                <div id="bar2"></div>
+                <div id="bar3"></div>
+                <div id="menu">Menu</div>
+                <p class="clear"></p>
+            </div>
+        </div>
+    </div>
+
+    <!--
+    
+    -->
+
+    </header>
+</div>
+
+    <!-- Nav -->
+    <div id="navClick" style="width: 100%; background-color: #373737; display: none;">
+        <nav class="navbar navbar-expand shadow-sm justify-content-center align-items-center">
+            <ul class="navbar-nav justify-content-center align-items-center">
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/">
+                        Home &nbsp; &nbsp; &#183; &nbsp;
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/gallery">
+                        Gallery &nbsp; &nbsp; &#183; &nbsp;
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" id="contactUs" href="/contact">
+                    Contact
+                    </a>
+                </li>
+            </ul>
+            <ul class="navbar-nav justify-content-end">
+            </ul>
+        </nav>
+    </div>
+</div>
+
     </div>
 
     <!-- MAIN CONTENT -->
@@ -118,22 +169,41 @@
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
-      <footer class="inner">
+  <footer class="container-full" style="padding: 25px;">
+    <!-- Left -->
+    <div class="row">
+      <div class="col-4-sm mx-auto justify-content-center align-items-left" style="opacity: 0.6">
+        <br />
+        <p style="text-align: left;"><a href="/contact">Contact Us</a></p>
+        <p style="text-align: left;"><strong>Location:</strong> Calgary, AB
+        <br /><strong>Hours:</strong> by appointment only</p>
+        <p class="break"></p>
+      </div>
+      <!-- Middle -->
+      <div class="col-4-sm mx-auto justify-content-center align-items-center">
         <form action="mailto:schuy+net@reno-visions.com?body=Contact%20Us&subject=Hi%20Sky%2C">
           <fieldset>
+            <br />
             <input type="submit" value="Send us an Email">
           </fieldset>
         </form>
-        
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
+      </div>
+      <!-- Right -->
+      <div class="col-4-sm mx-auto justify-content-center align-items-right" style="opacity: 0.6;">
+        <br />
+        <p style="text-align: right;"><a href="/sitemap.xml">Site Map</a></p>
+        <p style="text-align: right;">Maintained by <a href="https://www.github.com/schuyh/">Schuy H</a></a>
+        <br />Published with <a href="https://pages.github.com">GitHub Pages</p>
+        <p class="break"></p>
+      </div>
     </div>
+  </footer>
+</div>
 
     <!--
     
     --> 
 
-    <script src="/scripts/firefox-night-mode.js"></script>
-    
+    <script src="/scripts/load-more.js"></script>
   </body>
 </html>
