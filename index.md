@@ -6,7 +6,7 @@ layout: default
 
 # Welcome to reno-visions
 
-<img class="logo" src="/assets/images/reno-visions.png" max-height="450px" max-width="450px">
+<img src="/assets/images/reno-visions-textured.png" style="max-width: 450px; max-height: 450px;">
 
 <p><br /></p>
 
