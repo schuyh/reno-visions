@@ -1,13 +1,13 @@
 --- 
 layout: posts
-image: /assets/images/110821A.png
+image: /assets/images/110821B.png
 author: Schuy H
 ---
 
 Wake up to sunny, blue skies -- no matter the weather -- in this warm, breezy bedroom. 
 
 <div>
-    <img class ="secondaryImg" src="/assets/images/110821B.png" style="max-width: 640px;">
+    <img class ="secondaryImg" src="/assets/images/110821A.png" style="max-width: 640px;">
 </div>
 
 <br />Imagine all of the fun you could have on this beautiful day. 
