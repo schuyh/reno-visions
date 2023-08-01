@@ -6,7 +6,7 @@ layout: default
 
 # Welcome to reno-visions
 
-<img src="/assets/images/reno-visions-textured.png" style="max-width: 450px; max-height: 450px;">
+<img role="presentation" src="/assets/images/reno-visions-textured.png" alt="" style="max-width: 450px; max-height: 450px;">
 
 <p><br /></p>
 
@@ -14,7 +14,7 @@ layout: default
 
 ### What We Do
 <br />
-<img src="/assets/images/HIW720x250.png" width="640px">
+<img src="/assets/images/HIW720x250.png" alt="Three renders of a home office, combined into one image, illustrating the visualization process" width="640px">
 <br />
 <br />
 <p style="text-align:left;">
@@ -29,26 +29,26 @@ Using 3D modelling and texturing software, such as Blender and Substance Designe
 ### How We Do It
 
 <br />
-<img src="/assets/images/720x250-ao.png" width="640px" style="transform: scaleX(-1);" class="shadow-lg">
-<h5 style="text-align: left;">Model</h5>
+<img src="/assets/images/720x250-ao.png" alt="A render of a home office, with no colours or textures applied" width="640px" style="transform: scaleX(-1);" class="shadow-lg">
+<h4 style="text-align: left;">Model</h4>
 <p style="text-align:left;">
 Dimensions and designs in hand, we begin by modelling your space and your furnishings, and adding natural and interior light sources. 
 </p>
 
 <hr style="opacity: 0.4" />
-<img src="/assets/images/720x250-original.png" width="640px" style="transform: scaleX(-1);" class="shadow-lg">
-<h5 style="text-align: left;">Texture</h5>
+<img src="/assets/images/720x250-original.png" alt="A render of a home office with white walls, mahogany stained wood floors, and a black desk" width="640px" style="transform: scaleX(-1);" class="shadow-lg">
+<h4 style="text-align: left;">Texture</h4>
 <p style="text-align:left;">
 Using fabric swatches, material samples and reference photos, we create digital textures to represent your chosen finishes.
 </p>
 
 <hr style="opacity: 0.4" />
-<img src="/assets/images/720x250-accent.png" width="640px" style="transform: scaleX(-1);" class="shadow-lg">
-<h5 style="text-align: left;">Render</h5>
+<img src="/assets/images/720x250-accent.png" alt="A render of a home office with blue walls, ebony stained wood floors, and a white desk" width="640px" style="transform: scaleX(-1);" class="shadow-lg">
+<h4 style="text-align: left;">Render</h4>
 <p style="text-align:left;">
 With your feedback, we iterate on the design until you find the perfect fit. Would you like to see the office with a blue accent wall? Darker floors? 
 
-<br /><br /><h6 style="font-size: 1.25rem; text-decoration: italic; opacity: 0.5;"><em>As we always say, <strong>"render twice, reno once."</strong></em></h6>
+<br /><br /><h5 style="font-size: 1.25rem; text-decoration: italic; color: #6E6E6E;"><em>As we always say, <strong>"render twice, reno once."</strong></em></h5>
 </p>
 
 <br />
